@@ -1,6 +1,6 @@
 import UserContext from "./UserContext";
 import { useState } from "react";
-const URL = "http://localhost:5004";
+const URL = "https://intershala-assignment1-backend.onrender.com";
 
 const UserState = (props) => {
   const [user, setUser] = useState([]);
